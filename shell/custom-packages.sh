@@ -213,7 +213,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core sing-box kmod-nft-socket kmod-nft-tp
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-zerotier-zh-cn"
-# ============= 手工追加 Docker 组件 ================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES docker dockerd luci-app-dockerman"
 # ============= 强制剔除 x86 核显驱动，解决 GuC 报错 ================
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -i915-firmware-dmc -kmod-drm-i915"
